@@ -1,5 +1,5 @@
 import './App.css'
-import { List } from './componentes/List'
+/*import { List } from './componentes/List'
 import { WapperList } from './componentes/WrapperList'
 
 function App(){
@@ -10,9 +10,9 @@ function App(){
     </WapperList>
   </>
   )
-}
+}*/
 
-/*import { Button } from './componentes/Button'
+import { Button } from './componentes/Button'
 function App() {
 
   const buttonText = "Count : "
@@ -22,6 +22,6 @@ function App() {
       <Button text={buttonText}/>
     </>
   )
-}*/
+}
 
 export default App
