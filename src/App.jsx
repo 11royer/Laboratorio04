@@ -1,7 +1,7 @@
 import './App.css'
 import { Button } from './componentes/Button'
-
 import RandomComponent from './componentes/RandomComponent'
+import CompWithProps from './componentes/CompWithProps';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <h1>PUEBA 4</h1>
       <Button />
       <RandomComponent /> {}
+      <CompWithProps /> {}
     </>
   );
 }
