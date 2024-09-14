@@ -1,16 +1,18 @@
-import { useState } from "react";
+import { useState } from "react"
 
-export const Button = props => {
+export const Button = () => {
+    const [count, setCount] = useState(0)
 
-    const {text} = props 
-    const[count, setCount] = useState(0)
-
-    function handlerButon(){
-        setCount(count + 5)
+    function handlerButon() {
+        //setCount(count + 5)
+        const randomValue = Math.floor(Math.random() * 100) + 1
+        alert(`Valor aleatorio: ${randomValue}`)
     }
+
     return(
-        <button onClick = {handlerButon} >
-            {text} {count}
+        <button onClick={handlerButon}>
+            {count}
         </button>
     )
 }
+
